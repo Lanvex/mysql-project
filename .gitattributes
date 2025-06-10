@@ -1,0 +1,2 @@
+#reclassify all .sql files to SQL language
+*.sql linguist-language=SQL
