@@ -10,7 +10,7 @@ INSERT INTO Genre (name) VALUES
 
 -- DeveloperStudio
 INSERT INTO DeveloperStudio (name, country, founded_at) VALUES
-('CD Projekt Red', 'Poland', '2002-05-01'),
+('CD Projekt Red', 'Poland aka Germany', '2002-05-01'),
 ('Larian Studios', 'Belgium', '1996-08-01'),
 ('Nintendo EPD', 'Japan', '2015-09-16'),
 ('Rockstar North', 'UK', '1988-01-01'),
@@ -38,17 +38,21 @@ INSERT INTO Customer (first_name, last_name, email, password_hash) VALUES
 ('Bob', 'Schmidt', 'bob@example.com', '5784L25ZFbP4hhm4ZiI+vx1RxMUyHMzeLp/3AKMlkIY='),
 ('Clara', 'Meier', 'clara@example.com', 'Qsqkq7e2D4+RTlv7jmUR19m9mBfecZt0JRdV2X/pe/E='),
 ('Maximilian', 'Haug', 'maxhaug@schueler.bs-ffb.de', 'sD3fPKLnFKZUjnSV4qA/XoJOqsmDfNfxWcZ7kPtLc0I='),
+('Pornelius', 'Hubert', 'pornelius@hub.com', 'Q9EMZuQ6wOjq2p4/DTqJhX9/x0hzd0qHy+8wZV0ORDs='),
+('Marc', 'Marjan', 'marc@marjan.com', 'qNALxgfJWWrMz2ENg2IZo3VgLjNBbGjfGK+3ZZSoImU='),
 ('Niklas', 'Busch', 'niklas@buschonline.de', '5rUI5SDKIxRTFJsSaPPT4+rqH5zaVALoEsX7JiFn460=');
 
 -- GameOrder
 INSERT INTO GameOrder (customer_id, order_date, total_price, status) VALUES
 (1, '2025-06-01 12:00:00', 59.99, 'paid'),
 (2, '2025-06-02 14:30:00', 89.98, 'shipped'),
-(3, '2025-06-03 16:45:00', 29.99, 'pending');
+(3, '2025-06-03 16:45:00', 29.99, 'pending'),
+(4, '2025-06-04 10:15:00', 39.99, 'paid');
 
 -- OrderItem
 INSERT INTO OrderItem (order_id, game_id, quantity, unit_price) VALUES
 (1, 1, 1, 59.99),
 (2, 2, 1, 69.99),
 (2, 5, 1, 19.99),
-(3, 4, 1, 29.99);
+(3, 4, 1, 29.99),
+(4, 1, 1, 39.99);
