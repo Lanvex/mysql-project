@@ -1,4 +1,4 @@
---Database Project - Online Game Store - Maximilian Haug, Niklas Busch, Marc Marjan
+-- Database Project - Online Game Store - Maximilian Haug, Niklas Busch, Marc Marjan
 
 -- Umsatz pro Kunde
 SELECT 

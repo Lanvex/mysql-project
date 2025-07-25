@@ -1,4 +1,4 @@
---Database Project - Online Game Store - Maximilian Haug, Niklas Busch, Marc Marjan
+-- Database Project - Online Game Store - Maximilian Haug, Niklas Busch, Marc Marjan
 
 -- Drop tables in correct order due to foreign key dependencies
 DROP TABLE IF EXISTS OrderItem, SystemRequirement, GameOrder, Game, DeveloperStudio, Genre, Customer;
@@ -9,7 +9,7 @@ CREATE TABLE Customer (
     first_name VARCHAR(100) NOT NULL,
     last_name VARCHAR(100) NOT NULL,
     email VARCHAR(150) NOT NULL UNIQUE,
-    password_hash VARCHAR(255) NOT NULL,	--Base 64 SHA256
+    password_hash VARCHAR(255) NOT NULL,	-- Base 64 SHA256
     registered_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
  
