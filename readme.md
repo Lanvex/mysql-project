@@ -2,6 +2,10 @@
 
 Dieses Projekt wurde von Maximilian Haug, Niklas Busch und Marc Marjan entwickelt und stellt eine Datenbank für einen Online Game Store dar. Es umfasst die Erstellung der Tabellen, das Einfügen von Beispieldaten sowie verschiedene SQL-Abfragen zur Analyse und Verwaltung der Daten.
 
+## Über uns
+
+Wir sind ein Team aus der Klasse IT11d der Berufsschule Fürstenfeldbruck (BS-FFB). Als Gruppe 4 haben wir im Rahmen des Datenbankprojekts einen Videospiel-Onlineshop modelliert und implementiert.
+
 ## Inhaltsverzeichnis
 
 1. [Projektbeschreibung](#projektbeschreibung)
